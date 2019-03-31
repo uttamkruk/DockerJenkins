@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Docker Jenkins Suite" parallel="none" thread-count="0"> 
+
+  <test name="Docker Jenkins">
+  <parameter name ="browser" value="chrome"/>
+    <classes>
+           <class name="CICD.DockerJenkins.TestOne"/> 
+    </classes> 
+
+<!--Include / Exclude mechanism to exclude the test case--> 
+<!-- <methods>		
+          <exclude name="testEasy" />	
+          <include name="captureScreenshot" />		
+      </methods> -->   
+      
+<!--  <groups>		
+          <run>		
+    		 <include name="Title_verification"/>	
+          </run>		
+      </groups> -->
+
+<!--Listeners mechanism to generate logs and customize TestNG Reports (either uncomment below or use it at code level)-->       
+<!-- <listeners>
+      		 <listener class-name="listeners.Listener"/>
+      </listeners> --> 	   
+   </test> 
+</suite> 

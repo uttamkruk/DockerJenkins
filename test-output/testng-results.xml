@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Docker Jenkins Suite" duration-ms="50224" started-at="2019-03-31T11:59:24Z" finished-at="2019-03-31T12:00:14Z">
+    <groups>
+    </groups>
+    <test name="Docker Jenkins" duration-ms="50224" started-at="2019-03-31T11:59:24Z" finished-at="2019-03-31T12:00:14Z">
+      <class name="CICD.DockerJenkins.TestOne">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="beforeTest" is-config="true" duration-ms="4322" started-at="2019-03-31T17:29:24Z" finished-at="2019-03-31T17:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="testEasy" duration-ms="30784" started-at="2019-03-31T17:29:28Z" finished-at="2019-03-31T17:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="getResult" is-config="true" duration-ms="719" started-at="2019-03-31T17:29:59Z" finished-at="2019-03-31T17:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEasy status=SUCCESS method=TestOne.testEasy()[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="captureScreenshot" duration-ms="8955" started-at="2019-03-31T17:30:00Z" finished-at="2019-03-31T17:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="getResult" is-config="true" duration-ms="102" started-at="2019-03-31T17:30:09Z" finished-at="2019-03-31T17:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=captureScreenshot status=SUCCESS method=TestOne.captureScreenshot()[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="brokenLinks()[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="brokenLinks" duration-ms="3914" started-at="2019-03-31T17:30:09Z" finished-at="2019-03-31T17:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLinks -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="getResult" is-config="true" duration-ms="127" started-at="2019-03-31T17:30:13Z" finished-at="2019-03-31T17:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=brokenLinks status=SUCCESS method=TestOne.brokenLinks()[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CICD.DockerJenkins.TestOne@754ba872]" name="tearDown" is-config="true" duration-ms="1266" started-at="2019-03-31T17:30:13Z" finished-at="2019-03-31T17:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CICD.DockerJenkins.TestOne -->
+    </test> <!-- Docker Jenkins -->
+  </suite> <!-- Automation Docker Jenkins Suite -->
+</testng-results>
