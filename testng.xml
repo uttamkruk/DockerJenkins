@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Automation Docker Jenkins Suite" parallel="none" thread-count="0"> 
+<suite name="Docker Jenkins Suite" parallel="none" thread-count="0"> 
 
   <test name="Docker Jenkins">
   <parameter name ="browser" value="chrome"/>
